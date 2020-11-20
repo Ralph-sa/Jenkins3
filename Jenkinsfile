@@ -10,6 +10,9 @@ pipeline {
     stage('2') {
       steps {
         echo '22'
+        sh '''echo "Hello1"
+echo "Hello2"
+echo "Hello3"'''
       }
     }
 
