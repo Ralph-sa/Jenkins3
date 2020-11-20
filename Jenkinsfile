@@ -12,7 +12,9 @@ pipeline {
         echo '22'
         sh '''echo "Hello1"
 echo "Hello2"
-echo "Hello3"'''
+echo "Hello3"
+echo "Hello4"
+echo "Hello5"'''
       }
     }
 
